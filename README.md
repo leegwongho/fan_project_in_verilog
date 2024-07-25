@@ -1,10 +1,13 @@
 목표
+
 ![image](https://github.com/user-attachments/assets/44db7078-4699-4223-b103-99266294100b)
 
 팀 R&R
+
 ![image](https://github.com/user-attachments/assets/7639ffd5-539b-471e-96f1-e2f8b1055fc9)
 
 프로젝트 계획
+
 ![image](https://github.com/user-attachments/assets/b407c009-0bb4-452e-b2f7-c6928c1bb7a6)
 
 1차 목표
@@ -17,6 +20,7 @@
 
 
 ![image](https://github.com/user-attachments/assets/4d37ae2a-5377-4e8d-abbc-a8b74207ca14)
+
 가변 저항으로 타이머 입력을 받을수 있도록 설계했다. VIVADO 내에서 256번 평균을 내는 대에도 가변 저항의 값이 많이 흔들려서 16번 평균을 더내고
 하위 3비트를 잘라서 값을 사용해야 했다. 
 
@@ -26,9 +30,11 @@
 내보내도록 설계하였다. 또 롱키 입력을 받아 가변저항으로도 시간을 설정가능하게 하였다. 
 
 ![image](https://github.com/user-attachments/assets/3a7afe06-a2e8-4e13-9e83-ba92a02c1528)
+
 안전을위한 초음파 센서이다. 물체나 인체가 가까워지면 모터가 정지한다.
 
 ![image](https://github.com/user-attachments/assets/d408e9c7-0284-4f83-a063-239f972a8b7d)
+
 사람 디텍터 이다. 
 servo 모터의 왼쪽 가운데 오른쪽 에 초음파 센서를 장착한다.
 왼쪽이나 오른쪽에 물체가 감지되면 각 방향으로 servo 모터를 회전시키고 가운데에 물체가 감지되면 정지하도록 설계하였다.
@@ -36,6 +42,7 @@ servo 모터의 왼쪽 가운데 오른쪽 에 초음파 센서를 장착한다.
 우선 순위를 생각하지 않고 설계하여 문제가 생겨 각 값을 비교하여 가장 가까운 값으로 동작하도록 하여 해결했다.
 
 ![image](https://github.com/user-attachments/assets/c320e2f9-2f83-43c0-ba07-700202245f0a)
+
 
 top 모듈의 회로도이다. 
 
